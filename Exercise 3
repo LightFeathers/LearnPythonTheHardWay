@@ -1,0 +1,37 @@
+# -*- coding: utf-8 -*-
+
+# 需要导入这一句才会出现浮点数的运算结果
+from __future__ import division
+
+print 'I will now count my chickens:'
+
+# 有多少母鸡？
+print 'Hens', 25 + 30 / 6
+# Rooster是个什么鬼？
+print 'Roosters', 100 - 25 * 3 % 4
+# 数个鸡蛋要这么复杂？
+print 'Now I will count the aggs:'
+
+print 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
+# 当出现>,<,=的时候，结果为布尔逻辑
+print 'Is it ture that 3 + 2 < 5 - 7?'
+
+print 3 + 2 < 5 - 7
+
+print 'What is 3 + 2?', 3 + 2
+print 'What is 5 - 7?', 5 - 7
+
+print "Oh, that's why it's False."
+
+print 'How about some more?'
+
+print 'Is it greater?', 5 > -2
+print 'Is it greater or equal?', 5>= -2
+print 'Is it less or equal?', 5 <= -2
+
+# 在Python 2中，/除法结果为整数型
+print 30 / 6
+# %为取余数除法
+print 31 % 5
+
+print 32 / 5
